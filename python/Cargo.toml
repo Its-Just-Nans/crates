@@ -1,0 +1,11 @@
+[package]
+name = "python"
+version = "0.1.1"
+edition = "2024"
+description = "reserved"
+homepage = "https://www.python.org/"
+repository = "https://github.com/Its-Just-Nans/crates"
+keywords = ["python"]
+documentation = "https://docs.rs/python"
+
+[dependencies]

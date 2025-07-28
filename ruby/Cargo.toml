@@ -1,0 +1,11 @@
+[package]
+name = "ruby"
+version = "0.1.1"
+edition = "2024"
+description = "reserved"
+homepage = "https://www.ruby-lang.org/"
+repository = "https://github.com/Its-Just-Nans/crates"
+keywords = ["ruby"]
+documentation = "https://docs.rs/ruby"
+
+[dependencies]

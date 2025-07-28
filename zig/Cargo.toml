@@ -1,0 +1,11 @@
+[package]
+name = "zig"
+version = "0.1.1"
+edition = "2024"
+description = "reserved"
+homepage = "https://ziglang.org/"
+repository = "https://github.com/Its-Just-Nans/crates"
+keywords = ["zig"]
+documentation = "https://docs.rs/zig"
+
+[dependencies]
