@@ -2,10 +2,11 @@
 name = "python"
 version = "0.1.1"
 edition = "2024"
-description = "reserved"
+description = "python"
 homepage = "https://www.python.org/"
 repository = "https://github.com/Its-Just-Nans/crates"
 keywords = ["python"]
 documentation = "https://docs.rs/python"
+license = "MIT OR Apache-2.0"
 
 [dependencies]
