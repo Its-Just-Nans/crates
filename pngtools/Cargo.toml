@@ -1,0 +1,12 @@
+[package]
+name = "pngtools"
+version = "1.0.2"
+edition = "2024"
+description = "pngtools"
+license = "MIT"
+keywords = ["png", "cli", "tools"]
+homepage = "https://github.com/Its-Just-Nans/pngtools"
+repository = "https://github.com/Its-Just-Nans/crates"
+documentation = "https://github.com/Its-Just-Nans/pngtools"
+
+[dependencies]
