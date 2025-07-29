@@ -60,3 +60,28 @@ done >> list.json
 echo "]" >> list.json
 echo "Total crates found: ${#ALL_CRATES[@]}"
 echo "Crates list saved to list.json"
+
+
+{
+echo -e "\n## Crates\n"
+echo "| Crate | Repository | Homepage |"
+echo "|-------|------------|----------|"
+}>> README.md
+for crate in "${ALL_CRATES[@]}"; do
+    sleep 0.5  # To avoid hitting the API too fast
+    CRATE_INFO=$(curl -s "https://crates.io/api/v1/crates/$crate" -H "User-Agent: $USER_AGENT")
+    REPO_URL=$(echo "$CRATE_INFO" | jq -r '.crate.repository')
+    HOMEPAGE_URL=$(echo "$CRATE_INFO" | jq -r '.crate.homepage')
+    echo -n "| [$crate](https://crates.io/crates/$crate) |"
+    if [ "$REPO_URL" != "null" ]; then
+        echo -n "[$REPO_URL]($REPO_URL) | "
+    else
+        echo -n " N/A | "
+    fi
+    if [ "$HOMEPAGE_URL" != "null" ]; then
+        echo -n "[$HOMEPAGE_URL]($HOMEPAGE_URL) |"
+    else
+        echo -n " N/A |"
+    fi
+    echo ""
+done >> README.md
