@@ -1,0 +1,14 @@
+
+[package]
+name = "crobat"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "crobat"
+readme = "README.md"
+
+[[bin]]
+name = "crobat"
+path = "src/main.rs"
+
+[dependencies]

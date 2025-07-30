@@ -1,0 +1,13 @@
+[package]
+name = "sulfura"
+version = "0.1.0"
+description = "sulfura"
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+
+[[bin]]
+name = "sulfura"
+path = "src/main.rs"
+
+[dependencies]

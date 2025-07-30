@@ -1,0 +1,14 @@
+
+[package]
+name = "lugia"
+version = "0.1.0"
+description = "lugia"
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+
+[[bin]]
+name = "lugia"
+path = "src/main.rs"
+
+[dependencies]
