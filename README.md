@@ -2,6 +2,8 @@
 
 - <https://crates.io/users/Its-Just-Nans>
 
+## Crates
+
 | Crate                                                     | Repository                                                                                         | Homepage                                                                                           |
 | --------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | [apksig](https://crates.io/crates/apksig)                 | [https://github.com/Its-Just-Nans/apksig](https://github.com/Its-Just-Nans/apksig)                 | N/A                                                                                                |
@@ -14,7 +16,7 @@
 | [dugong](https://crates.io/crates/dugong)                 | N/A                                                                                                | N/A                                                                                                |
 | [epic](https://crates.io/crates/epic)                     | N/A                                                                                                | N/A                                                                                                |
 | [floo](https://crates.io/crates/floo)                     | N/A                                                                                                | N/A                                                                                                |
-| [galago](https://crates.io/crates/galago)                 | N/A                                                                                                | N/A                                                                                                |
+| [galago](https://crates.io/crates/galago)                 | [https://github.com/Its-Just-Nans/galago](https://github.com/Its-Just-Nans/galago)                 | [https://galago.n4n5.dev](https://galago.n4n5.dev)                                                 |
 | [galion](https://crates.io/crates/galion)                 | N/A                                                                                                | N/A                                                                                                |
 | [git-mover](https://crates.io/crates/git-mover)           | [https://github.com/Its-Just-Nans/git-mover](https://github.com/Its-Just-Nans/git-mover)           | N/A                                                                                                |
 | [givrali](https://crates.io/crates/givrali)               | N/A                                                                                                | N/A                                                                                                |
