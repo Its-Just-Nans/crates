@@ -1,0 +1,13 @@
+[package]
+name = "calcifer"
+version = "0.1.0"
+description = "calcifer"
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+
+[[bin]]
+name = "calcifer"
+path = "src/main.rs"
+
+[dependencies]
