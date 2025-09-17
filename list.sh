@@ -63,10 +63,13 @@ echo "Crates list saved to list.json"
 
 
 {
+echo "# crates"
+echo ""
+echo "- <https://crates.io/users/Its-Just-Nans>"
 echo -e "\n## Crates\n"
 echo "| Crate | Repository | Homepage |"
 echo "|-------|------------|----------|"
-}>> README.md
+}> README.md
 for crate in "${ALL_CRATES[@]}"; do
     sleep 0.5  # To avoid hitting the API too fast
     CRATE_INFO=$(curl -s "https://crates.io/api/v1/crates/$crate" -H "User-Agent: $USER_AGENT")
