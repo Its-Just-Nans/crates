@@ -1,0 +1,8 @@
+[package]
+name = "espeon"
+version = "0.1.0"
+edition = "2024"
+description = "espeon"
+license = "MIT"
+
+[dependencies]
