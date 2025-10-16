@@ -67,7 +67,7 @@ echo "# crates"
 echo ""
 echo "- <https://crates.io/users/Its-Just-Nans>"
 echo -e "\n## Crates\n"
-echo "| Crate | Repository | Homepage |"
+echo "| Crate | Description | Homepage && Repo |"
 echo "|-------|------------|----------|"
 }> README.md
 for crate in "${ALL_CRATES[@]}"; do
@@ -75,16 +75,24 @@ for crate in "${ALL_CRATES[@]}"; do
     CRATE_INFO=$(curl -s "https://crates.io/api/v1/crates/$crate" -H "User-Agent: $USER_AGENT")
     REPO_URL=$(echo "$CRATE_INFO" | jq -r '.crate.repository')
     HOMEPAGE_URL=$(echo "$CRATE_INFO" | jq -r '.crate.homepage')
+    DESCRIPTION=$(echo "$CRATE_INFO" | jq -r '.crate.description')
     echo -n "| [$crate](https://crates.io/crates/$crate) |"
-    if [ "$REPO_URL" != "null" ]; then
-        echo -n "[$REPO_URL]($REPO_URL) | "
+    if [ "$DESCRIPTION" != "null" ]; then
+        echo -n "$DESCRIPTION"
     else
-        echo -n " N/A | "
+        echo -n " N/A"
     fi
+    echo -n " | "
     if [ "$HOMEPAGE_URL" != "null" ]; then
-        echo -n "[$HOMEPAGE_URL]($HOMEPAGE_URL) |"
+        echo -n "[$HOMEPAGE_URL]($HOMEPAGE_URL) "
     else
-        echo -n " N/A |"
+        echo -n " N/A "
     fi
+    if [ "$REPO_URL" != "null" ]; then
+        echo -n "[$REPO_URL]($REPO_URL)"
+    else
+        echo -n "N/A"
+    fi
+    echo -n " |"
     echo ""
 done >> README.md
