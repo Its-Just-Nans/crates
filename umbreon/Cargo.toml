@@ -2,7 +2,7 @@
 name = "umbreon"
 version = "0.1.0"
 edition = "2024"
-description = "umbreon"
+description = "Incoming crate"
 license = "MIT"
 
 [dependencies]

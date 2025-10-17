@@ -2,7 +2,7 @@
 name = "leafeon"
 version = "0.1.0"
 edition = "2024"
-description = "leafeon"
+description = "Incoming crate"
 license = "MIT"
 
 [dependencies]
