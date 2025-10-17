@@ -75,6 +75,7 @@ for crate in "${ALL_CRATES[@]}"; do
     CRATE_INFO=$(curl -s "https://crates.io/api/v1/crates/$crate" -H "User-Agent: $USER_AGENT")
     REPO_URL=$(echo "$CRATE_INFO" | jq -r '.crate.repository')
     HOMEPAGE_URL=$(echo "$CRATE_INFO" | jq -r '.crate.homepage')
+    DOC_URL=$(echo "$CRATE_INFO" | jq -r '.crate.documentation')
     DESCRIPTION=$(echo "$CRATE_INFO" | jq -r '.crate.description')
     echo -n "| [$crate](https://crates.io/crates/$crate) |"
     if [ "$DESCRIPTION" != "null" ]; then
@@ -89,9 +90,14 @@ for crate in "${ALL_CRATES[@]}"; do
         echo -n " N/A "
     fi
     if [ "$REPO_URL" != "null" ]; then
-        echo -n "[$REPO_URL]($REPO_URL)"
+        echo -n "<br/> [$REPO_URL]($REPO_URL)"
     else
-        echo -n "N/A"
+        echo -n "<br/> N/A"
+    fi
+    if [ "$DOC_URL" != "null" ]; then
+        echo -n "<br/> [$DOC_URL]($DOC_URL)"
+    else
+        echo -n "<br/> N/A"
     fi
     echo -n " |"
     echo ""

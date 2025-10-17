@@ -1,7 +1,9 @@
 [
   "apksig",
   "apksigner",
+  "aquali",
   "baobab",
+  "belette",
   "bilby",
   "bladvak",
   "calcifer",
@@ -34,7 +36,9 @@
   "nim",
   "noctali",
   "notox",
+  "phyllali",
   "pngtools",
+  "pyroli",
   "python",
   "ruby",
   "smat",
@@ -48,6 +52,7 @@
   "tramex-tools",
   "types_lte_3gpp",
   "umbreon",
+  "voltali",
   "whatisthis",
   "yakb",
   "zig"
