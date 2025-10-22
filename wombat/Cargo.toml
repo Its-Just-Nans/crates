@@ -1,9 +1,9 @@
 [package]
-name = "leafeon"
+name = "wombat"
 version = "0.1.0"
 edition = "2024"
-description = "Incoming crate"
 license = "MIT"
+description = "Incoming crate"
 repository = "https://github.com/Its-Just-Nans/crates"
 
 [dependencies]

@@ -5,6 +5,7 @@ description = "calcifer"
 edition = "2021"
 license = "MIT"
 readme = "README.md"
+repository = "https://github.com/Its-Just-Nans/crates"
 
 [[bin]]
 name = "calcifer"
