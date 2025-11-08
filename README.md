@@ -1,6 +1,7 @@
 # crates
 
 - <https://crates.io/users/Its-Just-Nans>
+- <https://lib.rs/~Its-Just-Nans/dash>
 
 ## Crates
 
