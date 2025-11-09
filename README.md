@@ -58,7 +58,6 @@
 | [noctali](https://crates.io/crates/noctali)         | Incoming crate | N/A <br/> N/A <br/> N/A                                       |
 | [phyllali](https://crates.io/crates/phyllali)       | Incoming crate | N/A <br/> N/A <br/> N/A                                       |
 | [pyroli](https://crates.io/crates/pyroli)           | Incoming crate | N/A <br/> N/A <br/> N/A                                       |
-| [smat](https://crates.io/crates/smat)               | Incoming crate | N/A <br/> <https://github.com/Its-Just-Nans/crates> <br/> N/A |
 | [sulfura](https://crates.io/crates/sulfura)         | Incoming crate | N/A <br/> N/A <br/> N/A                                       |
 | [supertanker](https://crates.io/crates/supertanker) | Incoming crate | N/A <br/> <https://github.com/Its-Just-Nans/crates> <br/> N/A |
 | [suricate](https://crates.io/crates/suricate)       | Incoming crate | N/A <br/> N/A <br/> N/A                                       |
@@ -77,5 +76,6 @@
 | [pngtools](https://crates.io/crates/pngtools)   | pngtools                          | <https://github.com/Its-Just-Nans/pngtools> <br/> <https://github.com/Its-Just-Nans/crates> <br/> <https://github.com/Its-Just-Nans/pngtools> |
 | [python](https://crates.io/crates/python)       | python                            | <https://www.python.org/> <br/> <https://github.com/Its-Just-Nans/crates> <br/> <https://docs.rs/python>                                      |
 | [ruby](https://crates.io/crates/ruby)           | ruby                              | <https://www.ruby-lang.org/> <br/> <https://github.com/Its-Just-Nans/crates> <br/> <https://docs.rs/ruby>                                     |
+| [smat](https://crates.io/crates/smat)           | Incoming crate                    | N/A <br/> <https://github.com/Its-Just-Nans/crates> <br/> N/A                                                                                 |
 | [yakb](https://crates.io/crates/yakb)           | yakb - Yet Another Knowledge Base | <https://yakb.n4n5.dev> <br/> <https://github.com/Its-Just-Nans/crates> <br/> <https://github.com/Its-Just-Nans/yakb>                         |
 | [zig](https://crates.io/crates/zig)             | zig                               | <https://ziglang.org/> <br/> <https://github.com/Its-Just-Nans/crates> <br/> <https://docs.rs/zig>                                            |
